@@ -357,7 +357,7 @@ function isEscape(e) {
 var overlay = {
     init: function init(instance) {
         this.el = document.createElement("div");
-        this.el.className = "overlay";
+        this.el.className = "zoom-overlay";
         this.instance = instance;
         this.parent = document.body;
 
